@@ -105,8 +105,9 @@
 
 .buttonnsignin {
   width: 10%;
+  margin-left: 15px;
   background-color: white !important;
-  color: #7978FF !important;
+  color: #FF597B !important;
   min-width: max-content;
   margin-right: 10px;
 }
