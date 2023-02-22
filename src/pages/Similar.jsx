@@ -172,12 +172,12 @@ const Similar = () => {
             </Carousel>
           </div>
           <input
-            placeholder="search your rating tv"
+            placeholder="search your similar tv"
             className="Tv-search"
             onChange={({ target }) => search(target.value)}
           />
           <div className="Container_wrapper">
-            <h3 className="Explanation px-2 py-4">Rating</h3>
+            <h3 className="Explanation px-2 py-4">Similar</h3>
             <div className="container">
               <div className="row">
                 <CardList popularTV={similarTv} />

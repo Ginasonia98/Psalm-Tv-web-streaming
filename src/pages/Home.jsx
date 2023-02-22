@@ -179,13 +179,15 @@ const Home = () => {
               <Carousel.Item>
                 <img
                   className="carousel"
-                  src="https://assets.promediateknologi.com/crop/0x0:0x0/x/photo/2022/12/13/2372400716.jpeg"
+                  style={{filter:"brightness(150%)"}}
+                  src="https://i.pinimg.com/564x/91/91/fd/9191fd7bd5b1d6d7041de24a87110a52.jpg"
                   alt="Avatar The Way Of Water"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className="carousel"
+                  style={{filter:"brightness(150%)"}}
                   src="https://imgx.sonora.id/crop/0x0:0x0/700x465/photo/2022/12/08/my-name-is-vendettajpg-20221208094122.jpg"
                   alt="My Name Is Vendetta"
                 />
@@ -193,6 +195,7 @@ const Home = () => {
               <Carousel.Item>
                 <img
                   className="carousel"
+                  style={{filter:"brightness(150%)"}}
                   src="https://i.ytimg.com/vi/xA-B0B_mJog/maxresdefault.jpg"
                   alt="Detective Knight: Rogue"
                 />
@@ -200,7 +203,7 @@ const Home = () => {
             </Carousel>
           </div>
           <input
-            placeholder="search your favorite film"
+            placeholder="search your popular film"
             className="Tv-search"
             onChange={({ target }) => search(target.value)}
           />

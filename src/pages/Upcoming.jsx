@@ -177,7 +177,7 @@ const Upcoming = () => {
             onChange={({ target }) => search(target.value)}
           />
           <div className="Container_wrapper">
-            <h3 className="Explanation px-2 py-4">Rating</h3>
+            <h3 className="Explanation px-2 py-4">Upcoming</h3>
             <div className="container">
               <div className="row">
                 <CardList popularTV={upcomingVideo} />
